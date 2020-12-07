@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+int angle;
+int side;
+
+int main() {
+
+  cout << "Enter number of angle a regular polygon: ";
+  cin >> angle;
+  if (angle >= 3)
+  { cout << "Enter length of side: ";
+  cin >> side;
+  cout << endl;
+  cout << "Circuit is: " << angle * side << endl;
+      
+  } else cout << "Not enough number of angle ";
+
+
+  return 0;
+}
+
+
+
