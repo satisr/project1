@@ -1,2 +1,3 @@
-# project1
-Trial project
+# projects c++ utilities
+Utility codes:
+-leap year for Jullian calender
