@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+int main() {
+
+
+  string name;
+
+  cout << "Enter your name: ";
+  cin >> name; 
+  reverse(name.begin() , name.end() );
+  transform(name.begin(), name.end(), name.begin(), ::toupper);
+  cout << "length and size your name: "<< name.length() << " ,";
+  cout << name.size() << endl;
+  cout << "Your reverse and transform name to uppercase : " << name << endl;
+  return 0;
+}
+
+
+
