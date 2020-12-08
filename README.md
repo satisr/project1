@@ -4,3 +4,4 @@ Utility codes:
 - reserve name
 - regular polygon
 - rest of division
+- tabale of specjal signs
