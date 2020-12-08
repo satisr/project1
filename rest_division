@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+  int x, y;
+
+  cout << "Wprowadz pierwsza liczbe: ";
+  cin >> x;
+
+  cout << "Wprowadz druga liczbe: ";
+  cin >> y;
+
+  cout << "Reszta z dzielenia "
+       <<  x << " / " << y
+       << " = " << x % y << endl;
+
+  return 0;
+}
+
+
