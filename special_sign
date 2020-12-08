@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  cout.fill(' ');
+  cout << "Escape sequence |\tCharacter" << "\n";
+  cout <<"------------------------------------------------------\n";
+  cout.width(10);
+  cout << "\\" << "n\t|" << "\tnew line\n";
+  cout.width(10);
+  cout << "\\" << "t\t|" << "\thorizontal tab\n";
+  cout.width(10);
+  cout << "\\" << "v\t|" << "\tvertical tab\n";
+  cout.width(10);
+  cout << "\\" << "b\t|" << "\tbackspace\n";
+  cout.width(10);
+  cout << "\\" << "r\t|" << "\tshift to the beginning of the line\n";
+  cout.width(10);
+  cout << "\\" << "f\t|" << "\tnew page\n";
+  cout.width(10);
+  cout << "\\" << "\\\t|" << "\tbackslah\n";
+  cout.width(10);
+  cout << "\\" << "?\t|" << "\tquestion mark\n";
+  cout.width(10);
+  cout << "\\" << "'\t|" << "\tsingle quotation mark\n";
+  cout.width(10);
+  cout << "\\" << "\"\t|" << "\tdouble quotation mark\n";
+  return 0;
+}
